@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dickson Em | Software Developer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-lg py-3">
+    <div class="container">
+        <a class="navbar-brand fw-bold fs-3" href="#">
+            DICKSON <span class="text-primary">EM</span>
+        </a>
+
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mainNav">
+            <!-- Tunatumia 'navbar-nav' na 'nav-pills' kwa ajili ya stylish active state -->
+            <ul class="navbar-nav ms-auto nav-pills">
+                <li class="nav-item px-2">
+                    <a class="nav-link active rounded-pill px-3" href="index.html">Home</a>
+                </li>
+                <li class="nav-item px-2">
+                    <a class="nav-link rounded-pill px-3" href="about.html">About Me</a>
+                </li>
+                <li class="nav-item px-2">
+                    <a class="nav-link rounded-pill px-3" href="services.html">Services</a>
+                </li>
+                <li class="nav-item px-2">
+                    <a class="nav-link rounded-pill px-3" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item px-2">
+                    <a class="nav-link rounded-pill px-3" href="pricing.html">Pricing</a>
+                </li>
+                <li class="nav-item ms-lg-3">
+                    <a class="nav-link btn btn-primary text-white px-4 rounded-pill shadow-sm" href="contact.html">Contact Me</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<style>
+    /* Inabadilisha rangi ya neno ambalo lipo active kwa sasa */
+    .navbar-nav .nav-link.active {
+        background-color: #0d6efd !important; /* Rangi ya Bluu */
+        color: white !important;
+        font-weight: bold;
+    }
+
+    .nav-link {
+        transition: all 0.3s ease;
+        color: rgba(255,255,255,0.8);
+    }
+
+    /* Inafanya page isiruke ghafla (Smooth Scrolling) */
+    html {
+        scroll-behavior: smooth;
+    }
+</style>
+    <section class="py-5 bg-light" id="services">
+    <div class="container">
+        <!-- Kichwa cha Habari -->
+        <div class="text-center mb-5">
+            <h6 class="text-primary fw-bold text-uppercase tracking-wider">Tunachofanya</h6>
+            <h2 class="display-5 fw-bold">Huduma Tunazotoa</h2>
+            <p class="text-muted mx-auto" style="max-width: 600px;">
+                Tunatoa suluhisho bora za kiteknolojia kusaidia biashara yako kukua kidijitali.
+            </p>
+        </div>
+
+        <div class="row g-4">
+            <!-- 1. Website Development -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 border-0 shadow-sm p-4 service-card">
+                    <div class="icon-shape bg-primary text-white rounded-3 mb-4">
+                        <i class="fas fa-code fa-2x"></i>
+                    </div>
+                    <h4 class="fw-bold">Website Development</h4>
+                    <p class="text-muted">Tengeneza website yenye muonekano wa kisasa na inayofanya kazi kwa kasi kwenye vifaa vyote.</p>
+                </div>
+            </div>
+
+            <!-- 2. Android App Development -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 border-0 shadow-sm p-4 service-card">
+                    <div class="icon-shape bg-success text-white rounded-3 mb-4">
+                        <i class="fab fa-android fa-2x"></i>
+                    </div>
+                    <h4 class="fw-bold">Android App Development</h4>
+                    <p class="text-muted">Tunatengeneza application za simu (Android) zenye uwezo mkubwa na rahisi kutumiwa na wateja wako.</p>
+                </div>
+            </div>
+
+            <!-- 3. Business Website -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 border-0 shadow-sm p-4 service-card">
+                    <div class="icon-shape bg-info text-white rounded-3 mb-4">
+                        <i class="fas fa-briefcase fa-2x"></i>
+                    </div>
+                    <h4 class="fw-bold">Business Website</h4>
+                    <p class="text-muted">Website maalum kwa ajili ya kampuni au biashara yako ili kuongeza uaminifu kwa wateja (Professional look).</p>
+                </div>
+            </div>
+
+            <!-- 4. Portfolio Website -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 border-0 shadow-sm p-4 service-card">
+                    <div class="icon-shape bg-warning text-white rounded-3 mb-4">
+                        <i class="fas fa-user-tie fa-2x"></i>
+                    </div>
+                    <h4 class="fw-bold">Portfolio Website</h4>
+                    <p class="text-muted">Onyesha kazi zako na uzoefu wako kupitia ukurasa mmoja wenye mvuto wa hali ya juu.</p>
+                </div>
+            </div>
+
+            <!-- 5. School Systems -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 border-0 shadow-sm p-4 service-card">
+                    <div class="icon-shape bg-danger text-white rounded-3 mb-4">
+                        <i class="fas fa-school fa-2x"></i>
+                    </div>
+                    <h4 class="fw-bold">School Systems</h4>
+                    <p class="text-muted">Mifumo ya kusimamia shule, matokeo, na mahudhurio kwa njia rahisi na ya uhakika.</p>
+                </div>
+            </div>
+
+            <!-- 6. Graphics Design -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 border-0 shadow-sm p-4 service-card">
+                    <div class="icon-shape bg-secondary text-white rounded-3 mb-4">
+                        <i class="fas fa-paint-brush fa-2x"></i>
+                    </div>
+                    <h4 class="fw-bold">Graphics Design</h4>
+                    <p class="text-muted">Ubunifu wa Logo, Banner, na Posters zinazovutia kwa ajili ya kutangaza biashara yako.</p>
+                </div>
+            </div>
+
+            <!-- 7. Website Maintenance (Centered) -->
+            <div class="col-md-6 col-lg-4 mx-auto">
+                <div class="card h-100 border-0 shadow-sm p-4 service-card">
+                    <div class="icon-shape bg-dark text-white rounded-3 mb-4">
+                        <i class="fas fa-tools fa-2x"></i>
+                    </div>
+                    <h4 class="fw-bold">Website Maintenance</h4>
+                    <p class="text-muted">Tunahakikisha website yako iko salama, inafanya kazi saa 24, na kusasisha maudhui kila wakati.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<style>
+    .service-card {
+        transition: all 0.3s ease-in-out;
+        border-radius: 1.25rem;
+    }
+    .service-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 1rem 3rem rgba(0,0,0,.1) !important;
+        background-color: #fff;
+    }
+    .icon-shape {
+        width: 60px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .tracking-wider {
+        letter-spacing: 0.1em;
+    }
+</style>
+
+   <footer class="bg-dark text-white py-5">
+    <div class="container text-center">
+        <!-- Jina au Logo fupi -->
+        <h3 class="fw-bold mb-4">Dickson Em</h3>
+        
+        <p class="text-secondary mb-4">Nifuate kwenye mitandao yangu ya kijamii kwa habari na kazi mpya.</p>
+
+        <!-- Social Icons -->
+        <div class="d-flex justify-content-center gap-3 mb-4">
+            <!-- Facebook -->
+            <a href="https://www.facebook.com/dickson.em.10976" target="_blank" rel="noopener noreferrer" class="btn btn-outline-light rounded-circle social-icon" style="width: 45px; height: 45px;">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <!-- Instagram -->
+            <a href="https://www.instagram.com/dickson_em_?igsh=bzJxZDFobjU1dTEx" target="_blank" rel="noopener noreferrer" class="btn btn-outline-light rounded-circle social-icon" style="width: 45px; height: 45px;">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <!-- Telegram -->
+            <a href="https:// t.me/dickson_em" target="_blank" rel="noopener noreferrer" class="btn btn-outline-light rounded-circle social-icon" style="width: 45px; height: 45px;">
+                <i class="fab fa-telegram-plane"></i>
+            </a>
+            <!-- WhatsApp -->
+            <a href="https://wa.me/255625373677" target="_blank" rel="noopener noreferrer" class="btn btn-outline-light rounded-circle social-icon" style="width: 45px; height: 45px;">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+            <!-- X (Twitter) -->
+            <a href="https://x.com/dickson_em_" target="_blank" rel="noopener noreferrer" class="btn btn-outline-light rounded-circle social-icon" style="width: 45px; height: 45px;">
+                <i class="fab fa-x-twitter"></i>
+            </a>
+        </div>
+
+        <hr class="border-secondary mb-4">
+
+        <!-- Copyright -->
+        <p class="small text-secondary mb-0">
+            &copy; 2026 Dickson Em. Haki zote zimehifadhiwa.
+        </p>
+    </div>
+</footer>
+
+<!-- Mtindo kidogo wa CSS kufanya icon ziwe katikati -->
+<style>
+    .social-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.3s ease;
+    }
+    .social-icon:hover {
+        transform: translateY(-5px);
+        background-color: #0d6efd; /* Rangi ikiguswa */
+        border-color: #0d6efd;
+    }
+</style>
+
+</body>
+</html>
